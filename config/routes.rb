@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get root_path
+  root 'static_pages#Home'
 
   get 'static_pages/Contacts'
 
